@@ -366,6 +366,11 @@ body {
   text-align: center;
   flex: 0 1 50%;
 }
+@media (max-width: 900px) {
+  .contact__forms {
+    text-align: left;
+  }
+}
 .contact__form-name {
   text-align: start;
   display: inline-block;
@@ -379,6 +384,11 @@ body {
   height: 36px;
   background-color: #f8f7f7;
   border-top: 1px solid #000000;
+}
+@media (max-width: 900px) {
+  .contact__form-name {
+    margin: 0 10px 10px 0;
+  }
 }
 .contact__form-email {
   text-align: start;
@@ -405,6 +415,7 @@ body {
 @media (max-width: 900px) {
   .contact__form-message input {
     width: 200px;
+    display: inline-block;
   }
 }
 .contact__form-button {

@@ -389,6 +389,9 @@ body {
 	&__forms {
 		text-align: center;
 		flex: 0 1 50%;
+		@media (max-width:$tablet)  {
+			text-align: left;
+		}
 		
 	}
 
@@ -413,6 +416,9 @@ body {
 			height: 36px;
 			background-color: #f8f7f7;
 			border-top: 1px solid #000000;
+		}
+		@media (max-width:$tablet)  {
+			margin: 0 10px 10px 0;
 		}
 	}
 
@@ -448,6 +454,7 @@ body {
 			border-top: 1px solid #000000;
 			@media (max-width:$tablet)  {
 				width: 200px;
+				display: inline-block;
 			}
 		}
 	}
