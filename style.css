@@ -100,7 +100,7 @@ body {
 }
 
 .mainscreen {
-  background: url("/img/main-screen.jpg") 50%/cover no-repeat;
+  background: url("https://github.com/Glebokie/glebokie.github.io/blob/main/main-screen.jpg") 50%/cover no-repeat;
   flex: 1 0 100%;
   text-align: center;
   padding: 165px 0 0 0;
