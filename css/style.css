@@ -156,13 +156,13 @@ body {
 }
 
 .navigation {
-  padding: 50px 0;
+  padding: 50px 15px;
   background-color: rgba(0, 0, 0, 0.7529411765);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1921568627);
   border-top: 1px solid rgba(0, 0, 0, 0.1921568627);
 }
 .navigation__row {
-  gap: 20px;
+  gap: 30px;
   font-size: 22px;
   color: #000000;
   font-weight: 400;
@@ -247,14 +247,17 @@ body {
   padding: 20px;
 }
 .information__text {
-  text-align: justify;
+  text-align: left;
   padding: 20px 20px;
   color: #ffffff;
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 30px;
   font-weight: 400;
   text-shadow: 5px 5px 10px #000000;
+}
+.information__text_summary li {
+  margin: 0 0 20px 0;
 }
 .information__text_summary li::before {
   content: "";
@@ -266,7 +269,7 @@ body {
   margin: 0 9px 0 0;
 }
 .information__text_list {
-  line-height: 60px;
+  line-height: 50px;
 }
 .information__text_list li::before {
   content: "";

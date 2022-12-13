@@ -93,14 +93,14 @@ body {
 
 .navigation {
 	
-	padding: 50px 0;
+	padding: 50px 15px;
     background-color: #000000c0;
     border-bottom: 1px solid #00000031;
 	border-top: 1px solid #00000031;
 	
 	
 	&__row {
-		gap: 20px;
+		gap: 30px;
 		font-size: 22px;
 		color: #000000;
 		font-weight: 400;
@@ -163,7 +163,7 @@ body {
 .information {
     
     padding: 20px 0 0 0;
-    // .first__row
+    
 
     &__row {
         display: flex;
@@ -175,7 +175,7 @@ body {
     }        
     }
 
-    // .first__column
+    
 
     &__column {
         flex:1 0 33.333%;
@@ -186,7 +186,7 @@ body {
         
     }
 
-    // .first__title
+    
 
     &__title {
        
@@ -205,14 +205,14 @@ body {
       
     }
 
-    // .first__text
+   
 
     &__text {
-        text-align: justify;
+        text-align: left;
         padding: 20px 20px;
         color:#ffffff;
         font-size: 20px;
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 		line-height: 30px;
 		font-weight: 400;
         text-shadow: 5px 5px 10px #000000;
@@ -220,6 +220,7 @@ body {
 		&_summary {
 			
 			li {
+				margin: 0 0 20px 0;
 				&::before{
 					content: '';
 					width: 10px;
@@ -233,7 +234,7 @@ body {
 		}
 
 		&_list {
-			line-height: 60px;
+			line-height: 50px;
 			li {
 				&::before{
 					content: '';
