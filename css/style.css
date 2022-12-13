@@ -322,6 +322,9 @@ body {
     margin: 0 10px;
   }
 }
+.contacts__text img {
+  width: 30px;
+}
 .contacts__text img:hover {
   box-shadow: 1px 1px 10px #ffffff;
   border-radius: 50%;
