@@ -254,11 +254,11 @@ body {
 
 .contacts {
 
-	// .contacts__body
+	background-color: #000000c0;
 
 	&__body {
 		
-		background-color: #000000c0;
+		
 	}
 
 	// .contacts__title
@@ -277,6 +277,7 @@ body {
 	// .contacts__text
 
 	&__text {
+		gap:20px;
 		a {
 			&:active {
 				color: #ffffff;
@@ -292,14 +293,6 @@ body {
 			}
 		}
 
-		li {
-			margin: 0 50px;
-			@media (max-width:$tablet)  {
-				margin: 0 10px;
-				
-		}        
-			
-		}
 		img {
 			width: 30px;
 			&:hover{

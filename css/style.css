@@ -281,7 +281,7 @@ body {
   margin: 0 9px 0 0;
 }
 
-.contacts__body {
+.contacts {
   background-color: rgba(0, 0, 0, 0.7529411765);
 }
 .contacts__title {
@@ -294,6 +294,7 @@ body {
   padding: 20px;
 }
 .contacts__text {
+  gap: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -316,14 +317,6 @@ body {
 }
 .contacts__text a:hover {
   text-shadow: 1px 1px 10px #ffffff;
-}
-.contacts__text li {
-  margin: 0 50px;
-}
-@media (max-width: 900px) {
-  .contacts__text li {
-    margin: 0 10px;
-  }
 }
 .contacts__text img {
   width: 30px;
