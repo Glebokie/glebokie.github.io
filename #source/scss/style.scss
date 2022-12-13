@@ -39,6 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	text-shadow: rgb(0, 0, 0) 1px 0 10px;
     @media (max-width:$tablet)  {
         padding: 100px 0 0 0;
 		background: url('/img/IMG_6988.jpg') top/cover no-repeat;
@@ -46,7 +47,7 @@ body {
 @media (max-width:$mobile)  {
 	padding: 300px 0 0 0;
 	background: url('/img/IMG_6988.jpg') right/cover no-repeat;
-	text-shadow: 5px 5px 20px #000000;
+	text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 	
 	&__body {
@@ -99,7 +100,7 @@ body {
 	
 	
 	&__row {
-		
+		gap: 20px;
 		font-size: 22px;
 		color: #000000;
 		font-weight: 400;
@@ -131,7 +132,7 @@ body {
 			letter-spacing: 2px;
 		    color: #ffffff;
 		a {
-		margin: 0 35px;
+		
       
 		&:active {
 			color: #ffffff;

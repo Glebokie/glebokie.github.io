@@ -106,6 +106,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 @media (max-width: 900px) {
   .mainscreen {
@@ -117,7 +118,7 @@ body {
   .mainscreen {
     padding: 300px 0 0 0;
     background: url("/img/IMG_6988.jpg") right/cover no-repeat;
-    text-shadow: 5px 5px 20px #000000;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
   }
 }
 .mainscreen__body {
@@ -161,6 +162,7 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.1921568627);
 }
 .navigation__row {
+  gap: 20px;
   font-size: 22px;
   color: #000000;
   font-weight: 400;
@@ -190,9 +192,6 @@ body {
 .navigation__link {
   letter-spacing: 2px;
   color: #ffffff;
-}
-.navigation__link a {
-  margin: 0 35px;
 }
 .navigation__link a:active {
   color: #ffffff;
